@@ -3,7 +3,7 @@ Removes duplicate sequences in multifasta file.
 
 -------------------------
 
-DupRemover finds duplicate sequences and keep unique sequence while concatenating all the fasta headers together in a nucleotide or amino acid multifasta file.
+DupRemover finds duplicate sequences and keeps unique sequence while concatenating all the fasta headers together in a nucleotide or amino acid multifasta file.
 
 
 
