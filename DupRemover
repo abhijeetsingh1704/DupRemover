@@ -20,7 +20,7 @@ out = open (sys.argv[2], 'w')
 # Print info
 date = datetime.datetime.now()
 print("\n"+"[Script]       : DupRemover")
-print("[Date]         : "+ date.strftime("%Y-%M-%d %H:%M:%S"))
+print("[Date]         : "+ date.strftime("%Y-%m-%d %H:%M:%S"))
 print("[Input file]   : "+ sys.argv[1])
 print("[Output file]  : "+ sys.argv[2]+"\n")
 
