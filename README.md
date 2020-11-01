@@ -8,10 +8,10 @@ DupRemover finds duplicate sequences and keeps unique sequence while concatenati
 
 
 ## Usage
-python3 DupRemover < input file > < output file >
+python3 DupRemover.py < input file > < output file >
   
   ```
-  python3 DupRemover Mixed_sequences.fasta Unique_sequences.fasta
+  python3 DupRemover.py Mixed_sequences.fasta Unique_sequences.fasta
   ```
 
 
