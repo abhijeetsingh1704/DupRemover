@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # File - DupRemover
-# Modified - mån 18 maj 2020 14:50:14 CEST
+# Modified - Mon Mar  8 13:55:17 CET 2021
 # Sign - Abhijeet
 
 
@@ -14,7 +14,7 @@ from Bio.Alphabet import IUPAC
 from collections import defaultdict
 
 # user options
-input = open (sys.argv[1], 'rU')
+input = open (sys.argv[1], 'r')
 out = open (sys.argv[2], 'w')
 
 # Print info
