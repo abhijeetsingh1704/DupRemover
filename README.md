@@ -10,8 +10,10 @@ Biopython >= 1.78
 
 ## Install biopython (if not already installed)
 pip3 install biopython
+
 or
-python3.6 -m pip install biopython 
+
+python3 -m pip install biopython 
 
 
 ## Usage
