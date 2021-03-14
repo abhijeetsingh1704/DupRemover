@@ -6,14 +6,11 @@ Removes duplicate sequences in multifasta file.
 DupRemover finds duplicate sequences and keeps unique sequence while concatenating all the fasta headers together in a nucleotide or amino acid multifasta file.
 
 ## Dependencies
-Biopython >= 1.78
+Biopython >=1.78
 
-## Install biopython (if not already installed)
-pip3 install biopython
+DupRemover can install biopython>=1.78 package if biopython is not installed.
 
-or
-
-python3 -m pip install biopython 
+Please upgrade to Biopython >=1.78 if older version is installed
 
 
 ## Usage
