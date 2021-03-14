@@ -8,9 +8,9 @@ DupRemover finds duplicate sequences and keeps unique sequence while concatenati
 ## Dependencies
 Biopython >=1.78
 
-DupRemover can install biopython>=1.78 package if biopython is not installed.
+DupRemover can install biopython>=1.78 package, if biopython is not installed.
 
-Please upgrade to Biopython >=1.78 if older version is installed
+Please upgrade to biopython>=1.78 if older version is installed
 
 
 ## Usage
