@@ -32,6 +32,7 @@ example output
 
 #### Citation
 If you use DupRemover, please cite as:
+
 Singh, Abhijeet. 2020. DupRemover: A Simple Program to Remove Duplicate Sequences from Multi-Fasta File. 
 GitHub, DOI: 10.13140/RG.2.2.23842.86724. https://github.com/abhijeetsingh1704/Duplicate-remover.
 
