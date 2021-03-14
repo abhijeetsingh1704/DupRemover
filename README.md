@@ -19,7 +19,16 @@ python3 DupRemover.py /path/to/input_file  /path/to/output_file
   ```
   python3 DupRemover.py Mixed_sequences.fasta Unique_sequences.fasta
   ```
-
+example output
+```
+[Script]        : DupRemover
+[Date]          : 2021-03-14 13:50:03
+[Input file]    : Mixed_sequences.fasta
+[Output file]   : Unique_sequences.fasta
+[input seq]     : 30
+[Output seq]    : 5
+[Duplicates]    : 25
+```
 
 #### LICENSE
 Duplicate-remover is licensed under the
