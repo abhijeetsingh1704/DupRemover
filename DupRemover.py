@@ -1,14 +1,24 @@
 #!/usr/bin/env python3
 
 # File - DupRemover
-# Modified - Sat Mar 13 16:58:24 CET 2021
+# Modified - Sun Mar 14 11:40:50 CET 2021
 # Sign - Abhijeet
+
 import sys
 import datetime
-from Bio import SeqIO
-from Bio.Seq import Seq
-from Bio.SeqRecord import SeqRecord
+import subprocess
 from collections import defaultdict
+#
+try:
+    from Bio import SeqIO
+    from Bio.Seq import Seq
+    from Bio.SeqRecord import SeqRecord
+except ImportError:
+    print("Biopython missing, attempting to install...")
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "biopython>=1.78"])
+    from Bio import SeqIO
+    from Bio.Seq import Seq
+    from Bio.SeqRecord import SeqRecord
 
 # user options
 input = open (sys.argv[1], 'r')
