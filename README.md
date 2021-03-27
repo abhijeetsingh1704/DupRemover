@@ -45,7 +45,7 @@ python3 DupRemover.py /path/to/input_file  /path/to/output_file
   ```
 example output
 ```
-[Program]        : DupRemover
+[Program]       : DupRemover
 [Date]          : 2021-03-27 14:40:21
 [Input file]    : Mixed_sequences.fasta
 [Output file]   : Unique_sequences.fasta
