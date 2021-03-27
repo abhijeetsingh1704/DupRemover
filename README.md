@@ -1,4 +1,5 @@
 # "DupRemover" - Duplicate remover
+### version 1.0.3
 Removes duplicate sequences in multifasta file.
 
 -------------------------
@@ -12,22 +13,56 @@ DupRemover can install biopython>=1.78 package, if biopython is not installed.
 
 Please upgrade to biopython>=1.78 if older version is installed
 
+## Help
+```
+python3 DupRemover.py -h
+```
+```
+usage: DupRemover.py [-h] -i INPUT [-o OUTPUT] [-v Y/y or N/n] [-V]
+
+Removes duplicate sequences in multifasta file, and append fasta header to unique sequence
+
+Citation: Singh, Abhijeet. 2020. DupRemover: A Simple Program to Remove Duplicate Sequences from Multi-Fasta File
+GitHub: https://github.com/abhijeetsingh1704/DupRemover; DOI: 10.13140/RG.2.2.23842.86724.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i INPUT, --input INPUT
+                        input fasta file
+  -o OUTPUT, --output OUTPUT
+                        output fasta file (default: Uniq_<input_fasta_file>)
+  -v Y/y or N/n, --verbose Y/y or N/n
+                        print progress to the terminal (default: verbose)
+  -V, --version         show program's version number and exit
+```
+  
 
 ## Usage
 python3 DupRemover.py /path/to/input_file  /path/to/output_file
   
   ```
-  python3 DupRemover.py Mixed_sequences.fasta Unique_sequences.fasta
+  python3 DupRemover.py -i Mixed_sequences.fasta -o Unique_sequences.fasta
   ```
 example output
 ```
-[Script]        : DupRemover
-[Date]          : 2021-03-14 13:50:03
+[Program]        : DupRemover
+[Date]          : 2021-03-27 14:40:21
 [Input file]    : Mixed_sequences.fasta
 [Output file]   : Unique_sequences.fasta
-[input seq]     : 30
-[Output seq]    : 5
-[Duplicates]    : 25
+-------------------------
+AHI13756.1 FthFS, partial [uncultured Arthrobacter sp.] =|= AHI13756.1 FthFS, partial [uncultured Arthrobacter sp.] =|= AHI13756.1 FthFS, partial [uncultured Arthrobacter sp.]
+LRNIVIGLGGPTEGVPREAGFEITVASEVMAVFCLATGLEDLRTRLGRMTIGYTYDKKPVTVDDLGAAGAMTTLLKDAIKPNLVQTIGGTPAFIHGGPFANIAHGCNSAIATNTARSLAEVVVTEAGFGADLGAEKFMDIKARYAGCDPSAVVIVATIRALKMHGGVAKDQLKGENVQAVRDGMVNLARHASNVRKFGIHPVIAVNKFATDTADELAVVTEWAAENNIECAVADVWGQGGAGAGDLAAAVLRAIEAPSDFAPLYELEKPVEEKILTVVKEIYGGTEVDYTPAAKRVLEQIHANGWDNLPV
+
+AHI13755.1 FthFS, partial [uncultured bacterium]
+LGIDPRRITFRRVMDMNDRSLRHIVVGLGGPGQGTVREDGFDITVASEIMAVFCLATDIEDLTARLARITVGYTWDRRPVTVADLKVEGALALLLKDALKPNLVQTIAGTPALVHGGPFANIAHGCNSVIATTLGRDLADVVVTEAGFGADLGAEKYMDITSRVADVAPDAVVVVATIRALKMHGGVPRERLDEPNLAGLEAGTANLQRHVRNLGKFGFSPVVAINRFTTDTAEEIEWLLHWCSEEGVDAAVADVWAQGGGGPGGDDLAAKVLAALKRNVEFKPLYPLQMGVAEKIRVVVREIYGADDVEFSVPALRRLEEIEANGWDSVPV
+
+AHI13754.1 FthFS, partial [uncultured bacterium]
+ITSSHNLLSALVDNHIHWGGEPKLDAVRTSWRRVMDMNDRSLRNIVSGLGGPGNGSPSETGFDITVASEVMAILCLATDAEDLEARLSRIIVGYTREKKAVTAADIKATGAMMALLRDAMLPNLVQTLENNPCLVHGGPFANIAHGCNSVIATRAALKMANYVVTEAGFGADLGAEKFLNIKCRQAGLA
+
+-------------------------
+[input seq]     : 5
+[Output seq]    : 3
+[Duplicates]    : 2
 ```
 
 #### Citation
