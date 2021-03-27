@@ -52,10 +52,6 @@ else:
     verbosity=args.verbose(default)
 verbosity=verbosity.upper() 
 ###################################
-# # user options
-# input_obj = open(sys.argv[1], 'r')
-# output_obj = open(sys.argv[2], 'w')
-###################################
 # Print info
 date = datetime.datetime.now()
 print("[Program]\t: DupRemover")
