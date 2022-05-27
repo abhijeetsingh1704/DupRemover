@@ -68,8 +68,7 @@ ITSSHNLLSALVDNHIHWGGEPKLDAVRTSWRRVMDMNDRSLRNIVSGLGGPGNGSPSETGFDITVASEVMAILCLATDA
 #### Citation
 If you use DupRemover, please cite as:
 
-Singh, Abhijeet. 2020. DupRemover: A Simple Program to Remove Duplicate Sequences from Multi-Fasta File. 
-GitHub: https://github.com/abhijeetsingh1704/Duplicate-remover; DOI: 10.13140/RG.2.2.23842.86724.
+Singh A. DupRemover: a simple program to remove duplicate sequences from multi-fasta file. ResearchGate 2020. https://doi.org/10.13140/RG.2.2.23842.86724; Available at https://github.com/abhijeetsingh1704/Duplicate-remover
 
 
 #### LICENSE
